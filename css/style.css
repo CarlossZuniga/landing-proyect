@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+	--color-rojo: #FF4C4C;
+	--rojo-2: #FD5E5E;
+	--color-gris: #262626;
+}
+
+body{
+	font-family: 'Barlow';
+	font-size: 18px;
+	color: #fff;
+	font-weight: 300;
+}
+
+header{
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+}
+
+#hero{
+	padding: 10% 0 7%;
+	background-image: url("../img/home.png");
+	background-position: center; 
+	background-size: cover;
+	color: #fff;
+	background-color: rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+}
+
+#hero p{
+	color: #fff;
+	font-size: 21px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#hero h2{
+	color: #fff;
+	font-size: 90px;
+	font-weight: 800;
+}
+
+#hero h1{
+	color: var(--color-rojo);
+	font-size: 120px;
+	font-weight: 800;
+}
+
+#hero .boton{
+	margin-top: 245px;
+}
+
+.btn-home{
+	background-color: var(--color-rojo);
+	color: #fff;
+	border-radius: 40px;
+	font-size: 21px;
+	padding: 7px 200px 7px 15px;
+	text-align: start;
+}
+
+.btn-home:hover{
+	background-color: #fff;
+	color: var(--color-rojo);
+	border-radius: 40px;
+	font-size: 21px;
+	padding: 7px 200px 7px 15px;
+	text-align: start;
+}
+
+.btn-manejo{
+	background-color: var(--color-rojo);
+	color: #fff;
+	border-radius: 40px;
+	font-size: 21px;
+	font-weight: bold;
+	padding: 7px 40px;
+	text-align: center;
+}
+
+.btn-manejo:hover{
+	background-color: var(--rojo-2);
+	color: #fff;
+	border-radius: 40px;
+	font-size: 21px;
+	font-weight: bold;
+	padding: 7px 40px;
+	text-align: center;
+}
+
+.btn-ordenar{
+	background-color: #fff;
+	color: var(--color-rojo);
+	border-radius: 40px;
+	font-size: 21px;
+	font-weight: bold;
+	padding: 7px 40px;
+	text-align: center;
+}
+
+.btn-ordenar:hover{
+	background-color: #fff;
+	color: var(--rojo-2);
+	border-radius: 40px;
+	font-size: 21px;
+	font-weight: bold;
+	padding: 7px 40px;
+	text-align: center;
+}
+
+#producto{
+	padding: 20% 0 7%;
+	background-image: url("../img/about.png");
+	background-position: center; 
+	background-size: cover;
+	color: #fff;
+	background-color: rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+}
+
+#producto p{
+	line-height: 1;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#producto h2{
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#producto span{
+	color: var(--color-rojo);
+}
+
+#producto2{
+	padding: 20% 0 7%;
+	background-image: url("../img/about2.png");
+	background-position: center; 
+	background-size: cover;
+	color: #fff;
+	background-color: rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+}
+
+#producto2 p{
+	line-height: 1;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#producto2 h2{
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#producto2 span{
+	color: var(--color-rojo);
+}
+
+#producto3{
+	padding: 20% 0 7%;
+	background-image: url("../img/about3.png");
+	background-position: center; 
+	background-size: cover;
+	color: #fff;
+	background-color: rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+}
+
+#producto3 p{
+	line-height: 1;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#producto3 h2{
+	font-size: 50px;
+	font-weight: 700;
+	color: #fff;
+}
+
+#producto3 span{
+	color: var(--color-rojo);
+}
+
+#contacto{
+	padding: 20% 0 7%;
+	background-image: url("../img/contact.png");
+	background-position: center; 
+	background-size: cover;
+	color: #000;
+	background-color: rgba(0,0,0,0.50);
+	background-blend-mode: multiply;
+}
+#contacto h2{
+	color: #fff;
+	font-weight: 600;
+}
+
+#info{
+	padding: 7% 0;
+	background-color: var(--color-gris);
+	color: #fff;
+	font-size: 18px;
+}
+
+#info h1{
+	color: var(--color-rojo);
+	font-size: 60px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+#info h2{
+	color: var(--color-rojo);
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+#info img{
+	width: 500px;
+}
+
+.margen{
+	padding-right: 150px;
+}
